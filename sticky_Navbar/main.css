@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 600vh;
+    background-color: brown;
+}
+
+
+.navbar.move{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: bisque!important;
+    color: white!important;
+    transition: all 1s ease;
+
+}
