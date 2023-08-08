@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: bisque;
+}
+#insert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.key{
+    width: 150px;
+    height: 75px;
+    background-color: brown;
+    margin  : 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+    font-size: bold ;
+    border-radius: 50px;
+}
+.key1{
+    width: 300px;
+}
