@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.bg{
+    background: no-repeat center/cover
+     url(img/9b3ae9a543058ab9d8397555c131eba3.jpg);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+    color: #f5d703;
+    font-size: 100px;
+}
