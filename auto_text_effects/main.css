@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --green-color:#136a10;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000;
+    color: var(--green-color);
+    font-weight: bold;
+}
+
+.content{
+    font-size: 20px;
+}
+
+.speed{ 
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(55, 221, 5, 0.1);
+    padding: 10px;
+}
+
+input{
+    text-align: center;
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--green-color);
+    color: #fff;
+}
+
+input:focus{
+    outline: 0;
+}
